@@ -1,6 +1,5 @@
 print("I'm a Student. My name is Rabby and I am generally called the 'matcho man'")
-a = """
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+a = """Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has been the industry's standard dummy text ever since 1966, 
 when designers at Letraset and James Mosley, the librarian at St Bride 
 Printing Library in London, took a 1914 Cicero translation and scrambled 
@@ -10,3 +9,10 @@ remaining essentially unchanged. It was popularised thanks to these
 sheets and more recently with desktop publishing software like 
 Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum."""
 print(a)
+
+print(a[12])
+print(len(a))
+print("not  only" in a)
+
+if "but also" in a:
+    print("Yes, 'but also' is present in the string.")
