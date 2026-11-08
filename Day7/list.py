@@ -16,3 +16,4 @@ print(fruits)  # Output: ['apple', 'blueberry', 'cherry', 'date', 'elderberry', 
 
 fruits.insert(2, "grape")
 print(fruits)  # Output: ['apple', 'blueberry', 'grape', 'cherry', 'date', 'elderberry', 'fig']
+
